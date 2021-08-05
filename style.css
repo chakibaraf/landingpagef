@@ -1,0 +1,51 @@
+* , ::before, ::after{
+    box-sizing: inherit;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: normal;
+    text-size-adjust: 100%;
+
+}
+
+body{
+    margin: 0px;
+    align-items: center;
+    
+}
+
+
+.navbar{
+    padding-bottom: .10rem;
+}
+
+.signinsc{
+    justify-content: left;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+
+
+
+a {
+    text-decoration: none;
+
+}
+
+.text-reset{
+    text-decoration: none;
+}
+
+
+/* responsive permet de monter l'image en premier avant le texte */
+@media screen and (max-width: 768px)
+{
+    .container {display: grid}
+    .ftpr {display: table-footer-group}
+   
+}
+
+
